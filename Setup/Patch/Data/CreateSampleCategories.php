@@ -1,4 +1,5 @@
 <?php
+
 namespace SandipKlevu\SampleCategories\Setup\Patch\Data;
 
 use Magento\Framework\Setup\Patch\DataPatchInterface;
@@ -47,12 +48,13 @@ class CreateSampleCategories implements DataPatchInterface
      */
     public function __construct(
         ModuleDataSetupInterface $moduleDataSetup,
-        CategoryFactory $categoryFactory,
-        CategoryResource $categoryResource,
-        StoreManagerInterface $storeManager,
-        ModuleReader $moduleReader,
-        Json $serializer
-    ) {
+        CategoryFactory          $categoryFactory,
+        CategoryResource         $categoryResource,
+        StoreManagerInterface    $storeManager,
+        ModuleReader             $moduleReader,
+        Json                     $serializer
+    )
+    {
         $this->moduleDataSetup = $moduleDataSetup;
         $this->categoryFactory = $categoryFactory;
         $this->categoryResource = $categoryResource;
@@ -177,7 +179,7 @@ class CreateSampleCategories implements DataPatchInterface
     /**
      * @return array
      */
-    public static function getAliases()
+    public function getAliases()
     {
         return [];
     }
