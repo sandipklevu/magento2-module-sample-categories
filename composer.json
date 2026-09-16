@@ -2,7 +2,7 @@
   "name": "sandipklevu/module-sample-categories",
   "description": "Magento 2 Module to automatically create sample categories and subcategories via Data Patch.",
   "type": "magento2-module",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "authors": [
     {
