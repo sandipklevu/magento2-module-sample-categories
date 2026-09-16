@@ -1,0 +1,210 @@
+[
+  {
+    "name": "E-Commerce & Retail",
+    "description": "Explore featured items, deals, and daily discounts across our general retail catalog.",
+    "is_active": true,
+    "children": [
+      {
+        "name": "Daily Deals & Flash Sales",
+        "description": "Limited-time discounts on trending products.",
+        "is_active": true,
+        "children": [
+          {
+            "name": "Flash Sale - Electronics",
+            "description": "24-hour flash discounts on top tech items.",
+            "is_active": true,
+            "children": [
+              {
+                "name": "Flash Sale - Door Busters (Ended)",
+                "description": "Expired promotional items hidden from the frontend.",
+                "is_active": false
+              }
+            ]
+          },
+          {
+            "name": "Clearance Vault",
+            "description": "Deep markdown inventory and final sale items.",
+            "is_active": true
+          }
+        ]
+      },
+      {
+        "name": "Seasonal Specials",
+        "description": "Curated collections for holidays and changing seasons.",
+        "is_active": true,
+        "children": [
+          {
+            "name": "Summer Outdoor Event",
+            "description": "Seasonal catalog for warm weather activities.",
+            "is_active": true
+          },
+          {
+            "name": "Winter Holiday Gifting (Archived)",
+            "description": "Past seasonal campaign disabled until Q4.",
+            "is_active": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Electronics",
+    "description": "Upgrade your daily tech with cutting-edge smartphones, audio systems, and smart home gadgets.",
+    "is_active": true,
+    "children": [
+      {
+        "name": "Computers & Accessories",
+        "description": "High-performance laptops, desktop setups, and monitors.",
+        "is_active": true,
+        "children": [
+          {
+            "name": "Laptops & Notebooks",
+            "description": "Portable computing solutions.",
+            "is_active": true,
+            "children": [
+              {
+                "name": "Gaming Laptops",
+                "description": "High refresh rate and GPU laptop models.",
+                "is_active": true
+              },
+              {
+                "name": "Refurbished Laptops (Clearance)",
+                "description": "Certified pre-owned laptops on discount.",
+                "is_active": true
+              },
+              {
+                "name": "Legacy Models (Discontinued)",
+                "description": "Old product lines no longer available for purchase.",
+                "is_active": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Audio & Headphones",
+        "description": "Immersive wireless headphones and bluetooth speakers.",
+        "is_active": true,
+        "children": [
+          {
+            "name": "Wireless Earbuds",
+            "description": "True wireless noise-canceling earbuds.",
+            "is_active": true,
+            "children": [
+              {
+                "name": "Audio Refurbished Sale",
+                "description": "Discounted audio devices.",
+                "is_active": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clothing & Apparel",
+    "description": "Discover modern wardrobe essentials, seasonal fashion trends, accessories, and casual wear.",
+    "is_active": true,
+    "children": [
+      {
+        "name": "Men's Fashion",
+        "description": "Casual shirts, trousers, jackets, and formal wear.",
+        "is_active": true,
+        "children": [
+          {
+            "name": "Outerwear & Jackets",
+            "description": "Coats, parkas, and windbreakers.",
+            "is_active": true,
+            "children": [
+              {
+                "name": "Spring / Summer Jackets (Sale)",
+                "description": "Lightweight jackets on end-of-season sale.",
+                "is_active": true
+              },
+              {
+                "name": "Winter Heavy Parkas (Off-Season)",
+                "description": "Hidden during summer months.",
+                "is_active": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Women's Fashion",
+        "description": "Chic dresses, comfortable loungewear, and daily tops.",
+        "is_active": true,
+        "children": [
+          {
+            "name": "Dresses & Jumpsuits",
+            "description": "Casual, formal, and cocktail dresses.",
+            "is_active": true,
+            "children": [
+              {
+                "name": "Summer Sun Dresses",
+                "description": "Seasonal dress collection.",
+                "is_active": true
+              },
+              {
+                "name": "Black Friday Clearance Dresses",
+                "description": "Promotional category reserved for sale events.",
+                "is_active": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Home & Kitchen",
+    "description": "Furnish your living spaces with elegant furniture, cookware, and smart appliances.",
+    "is_active": true,
+    "children": [
+      {
+        "name": "Kitchen & Dining",
+        "description": "Non-stick cookware sets, chef knives, and tableware.",
+        "is_active": true,
+        "children": [
+          {
+            "name": "Cookware & Bakeware",
+            "description": "Pots, pans, and baking sheets.",
+            "is_active": true,
+            "children": [
+              {
+                "name": "Cast Iron Skillets (Overstock Sale)",
+                "description": "Overstock pricing on cast iron products.",
+                "is_active": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Seasonal Living",
+        "description": "Patio and holiday decor.",
+        "is_active": true,
+        "children": [
+          {
+            "name": "Patio & Outdoor Dining",
+            "description": "Grills and outdoor seating.",
+            "is_active": true,
+            "children": [
+              {
+                "name": "Autumn Garden Clearance",
+                "description": "End-of-fall inventory clearance.",
+                "is_active": true
+              },
+              {
+                "name": "Spring Prep (Internal Draft)",
+                "description": "Draft category prepared for upcoming launch.",
+                "is_active": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
