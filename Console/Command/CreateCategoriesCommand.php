@@ -46,7 +46,7 @@ class CreateCategoriesCommand extends Command
         ModuleReader              $moduleReader,
         Json                      $serializer,
         Registry                  $registry,
-        ?string                    $name = null
+        ?string                   $name = null
     )
     {
         parent::__construct($name);
@@ -73,7 +73,7 @@ class CreateCategoriesCommand extends Command
         parent::configure();
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         if (!$this->registry->registry('isSecureArea')) {
             $this->registry->register('isSecureArea', true);

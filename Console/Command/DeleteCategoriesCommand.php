@@ -60,7 +60,7 @@ class DeleteCategoriesCommand extends Command
      * @param OutputInterface $output
      * @return mixed
      */
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         if (!$this->registry->registry('isSecureArea')) {
             $this->registry->register('isSecureArea', true);
