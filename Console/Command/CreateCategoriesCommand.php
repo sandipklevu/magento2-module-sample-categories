@@ -46,7 +46,7 @@ class CreateCategoriesCommand extends Command
         ModuleReader              $moduleReader,
         Json                      $serializer,
         Registry                  $registry,
-        string                    $name = null
+        ?string                    $name = null
     )
     {
         parent::__construct($name);
